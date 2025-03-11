@@ -81,7 +81,7 @@ class Graph{
 
     public class Depth_First_Search {
     public static void main(String[] args) throws FileNotFoundException {
-        Graph gg = new Graph("C:\\\\Users\\\\ASUS\\\\Desktop\\\\CSE 2-2\\\\Java Algo\\\\DFS\\\\input.txt");
+        Graph gg = new Graph("input.txt");
         gg.DFS(gg.source);
         gg.printTraversal();
     }
